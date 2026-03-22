@@ -1,8 +1,8 @@
 ---
 name: skill-02b
-title: 区块与韵文处理
-description: Fenced Div 语义块与赞体韵文的标注、检测与渲染
+description: Fenced Div语义块与赞体韵文标注方法。当遇到《史记》中的'太史公曰'、韵文、诏书等特殊文体时使用。涵盖Pandoc Fenced Div语法、韵文检测、渲染样式设计等内容。
 ---
+
 
 # SKILL 02b: 区块与韵文处理 — Fenced Div 语义块与赞体韵文的标注、检测与渲染
 

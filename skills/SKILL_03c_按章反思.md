@@ -1,7 +1,6 @@
 ---
-name: SKILL-03c-chapter-reflection
-description: 《史记》实体标注按章反思。当完成单章实体标注后，或发现单章标注质量不理想时触发。用于逐章深度审查已标注文件，发现标错/遗漏的实体，修正语境误判，并积累章节特有错误模式。每个Agent只处理一章，质量基线30-80处修正/章。
-compatibility: Python 3.7+, grep, scripts/lint_markdown.py, scripts/infer_single_char_names.py
+name: skill-03c
+description: 实体标注按章反思审查,Agent驱动的逐章深度质量审查。当完成单章实体标注后需要质量审查时使用,或发现单章标注质量不理想需要改进时触发。每个Agent只处理一章,发现标错/遗漏的实体、修正语境误判、积累章节特有错误模式。质量基线30-80处修正/章。明确使用本技能当用户提到'按章反思''实体审查''单章质检'或标注质量问题。
 ---
 
 # SKILL 03c: 按章反思 — 实体标注逐章审查

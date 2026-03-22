@@ -1,8 +1,8 @@
 ---
 name: skill-03d
-title: 渲染与发布
-description: 标注文本输出为HTML
+description: 标注文本HTML渲染与GitHub Pages发布流程。当需要将.tagged.md转换为可视化网页、生成实体索引、发布到GitHub Pages时使用。适用于成果展示、在线阅读器构建、知识库发布等场景。
 ---
+
 
 # SKILL 03d: 渲染与发布 — 标注文本输出为HTML
 

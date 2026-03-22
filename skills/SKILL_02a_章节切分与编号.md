@@ -1,8 +1,8 @@
 ---
 name: skill-02a
-title: 古籍章节切分与编号
-description: Purple Numbers与语义分段
+description: 古籍章节切分与Purple Numbers段落编号方法。当需要为古籍文本添加持久化段落标识符、进行语义分段、建立可引用的文本锚点时使用。适用于txt转md、段落索引构建、细粒度引用系统设计。
 ---
+
 
 # SKILL 02a: 古籍章节切分与编号 — Purple Numbers与语义分段
 
