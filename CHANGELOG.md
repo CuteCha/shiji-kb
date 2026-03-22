@@ -9,6 +9,59 @@
 
 ---
 
+## 2026-03-22
+
+### 新增 (Added)
+
+- **普通文本语义标注阅读系统** ([`resources/publications/draft/`](resources/publications/draft/)) ([818736e8])
+  - 2055行代码：渲染引擎+样式+交互脚本
+  - 15种实体类型可视化+3种标注模式
+- **指代消解SKILL规范** ([`skills/SKILL_02i_指代消解.md`](skills/SKILL_02i_指代消解.md)) ([2799ca57])
+  - 868行人称代词和身份指代语义消解规范
+- **混合语义分析实验框架** ([`labs/hybrid-semantic-analysis/`](labs/hybrid-semantic-analysis/)) ([2bcac1ad] / [b293ab20] / [17db94f4])
+  - 三种语义分析方法（LTP本地、LTP+Qwen混合、纯LLM）
+  - 5种NLP工具对比文档（LTP/HanLP/Stanza/spaCy/jieba）
+  - Python 3.13兼容性测试结果
+
+### 修复 (Fixed)
+
+- **002-008章第三轮实体标注反思**：99处修正 ([4b75ebf2] / [1975470c] / [42625df0] / [b3286a8a])
+  - 时长消歧标注59处、群体身份21处、刑法动词11处
+  - 标注铁律违规修正2处、断句错误修复1处
+- **标注铁律强化**：明确禁止修改原文字符和标点 ([970a465c])
+- **Lint工具增强**：引号规范化和白名单机制 ([4b75ebf2])
+
+### 更改 (Changed)
+
+- **目录结构重构**：创建resources/统一管理静态参考资料 ([02cce8db])
+- **SKILL文件结构化**：为41个SKILL文件添加YAML frontmatter ([89b1c38a])
+- **根目录整理**：移动脚本和报告到对应目录 ([f04b420a])
+
+### 项目维护 (Maintenance)
+
+- 构建生成文件更新 ([b5254746])
+- 图片资源更新 ([af8563f0])
+
+**详细工作日志**: [`logs/daily/2026-03-22.md`](logs/daily/2026-03-22.md)
+
+[818736e8]: https://github.com/baojie/shiji-kb/commit/818736e8
+[2799ca57]: https://github.com/baojie/shiji-kb/commit/2799ca57
+[2bcac1ad]: https://github.com/baojie/shiji-kb/commit/2bcac1ad
+[b293ab20]: https://github.com/baojie/shiji-kb/commit/b293ab20
+[17db94f4]: https://github.com/baojie/shiji-kb/commit/17db94f4
+[4b75ebf2]: https://github.com/baojie/shiji-kb/commit/4b75ebf2
+[1975470c]: https://github.com/baojie/shiji-kb/commit/1975470c
+[42625df0]: https://github.com/baojie/shiji-kb/commit/42625df0
+[b3286a8a]: https://github.com/baojie/shiji-kb/commit/b3286a8a
+[970a465c]: https://github.com/baojie/shiji-kb/commit/970a465c
+[02cce8db]: https://github.com/baojie/shiji-kb/commit/02cce8db
+[89b1c38a]: https://github.com/baojie/shiji-kb/commit/89b1c38a
+[f04b420a]: https://github.com/baojie/shiji-kb/commit/f04b420a
+[b5254746]: https://github.com/baojie/shiji-kb/commit/b5254746
+[af8563f0]: https://github.com/baojie/shiji-kb/commit/af8563f0
+
+---
+
 ## 2026-03-21
 
 ### 新增 (Added)

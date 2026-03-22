@@ -1,3 +1,9 @@
+---
+name: daily-wechat-summary
+title: 每日工作日志微信群总结
+description: 根据详细的每日工作日志生成适合微信群发送的简短平实文本
+---
+
 # SKILL: 每日工作日志微信群总结
 
 ## 目标
